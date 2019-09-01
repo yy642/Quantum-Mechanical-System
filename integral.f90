@@ -1,5 +1,10 @@
 PROGRAM integral 
 !
+!Using casimir polder integral to compute dispersion energy using frequency-dependent polarzability
+! input: eigenmat.in, the eigenvalue of the target system.
+! input: norder.in, target order of the energyexpansion. n=2 to infinty.
+! output: the energy
+!
 IMPLICIT NONE
 !
 ! Global Parameters (consistent with Quantum Espresso)
