@@ -1,4 +1,4 @@
-PROGRAM potential 
+PROGRAM integral 
 !
 IMPLICIT NONE
 !
@@ -100,4 +100,4 @@ CALL CPU_TIME(t1)
 !
 PRINT '("Time = ",F12.3," seconds.")', t1-t0
 !
-END PROGRAM potential 
+END PROGRAM integral
